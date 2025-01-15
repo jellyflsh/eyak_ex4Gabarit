@@ -1,0 +1,86 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.menu-gauche, .menu-droit {
+    width: 20%;
+    background-color: #808080;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-gauche p, .menu-droit p {
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.menu-gauche hr, .menu-droit hr {
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+.menu-gauche ul, .menu-droit ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-gauche ul li, .menu-droit ul li {
+    margin: 5px 0;
+    text-decoration: underline;
+}
+
+.menu-gauche ul li a, .menu-droit ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    min-height: 600px; /* Ajoutez cette ligne */
+}
+
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+main hr {
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
